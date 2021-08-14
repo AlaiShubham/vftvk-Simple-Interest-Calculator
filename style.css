@@ -1,4 +1,35 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+	background-color: black;
+	font-family: arial;
+	color: white;
+}
+/* heading style */
+h1{
+	color: grey;
+	font-family: verdana;
+}
+.maindiv{
+	background-color: white;
+	color: black;
+	width: 500px;
+	padding: 20px;
+	border-radius: 25px; /* to round the corner of rectangle */
+	margin: auto; /* to center the maindiv class div */
+}
+/* for tap spacing */
+table, .tab1{
+	padding-left: 5em;
+}
+.tab{
+	padding-left: 2em;
+}
 
+/* to Highlight the number */
+.highlight{
+	background-color: yellow;
+}
 
+/* increase the size of copyright trademark */
+.copyright{
+	font-size: 21px;
+}
